@@ -1,0 +1,24 @@
+.cursor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+  width: 160px;
+  height: 160px;
+  z-index: 20;
+}
+
+.cursorTooltip {
+  position: absolute;
+  background-color: #f6f6f6;
+  left: calc(50% - 30px);
+  bottom: 20px;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.colorLabelWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

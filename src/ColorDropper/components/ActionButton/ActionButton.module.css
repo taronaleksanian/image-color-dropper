@@ -1,0 +1,20 @@
+.actionButton {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50px;
+  background-color: var(--body-background);
+  border: none;
+  transition: transform 0.3ms ease-in-out;
+}
+
+.actionButton:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.actionButton.active {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}

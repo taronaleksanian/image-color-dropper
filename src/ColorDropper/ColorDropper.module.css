@@ -1,0 +1,16 @@
+.wrapper {
+  position: relative;
+  width: 75vw;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4px;
+  border-bottom: 1px solid #f6f6f6;
+  align-items: center;
+  background-color: var(--header-background);
+  height: 36px;
+}

@@ -1,0 +1,12 @@
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper.cursorModeActive:hover {
+  cursor: none;
+}
+
+.picture {
+  width: 100%;
+  z-index: 10;
+}
